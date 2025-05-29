@@ -2,4 +2,11 @@ body {
     font-family: Poppins, sans-serif;
     background: linear-gradient(180deg, #090501, #120A01);
     min-height: 100vh;
+    color: #ffffff;
+}
+
+.container {
+    padding: 37px 55px;
+    max-width: 1320px;
+    margin: 0 auto;
 }
