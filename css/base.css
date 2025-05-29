@@ -10,3 +10,25 @@ body {
     max-width: 1320px;
     margin: 0 auto;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-list {
+    display: flex;
+    gap: 88px;
+}
+
+.navigation-link {
+    transition: color 300ms ease-in-out;
+    color: #ffffff;
+    text-decoration: none;
+    user-select: none;
+}
+
+.navigation-link:hover {
+    color: #FA9021;
+}
