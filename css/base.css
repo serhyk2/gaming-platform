@@ -17,6 +17,13 @@ body {
     align-items: center;
 }
 
+.logo {
+    user-select: none;
+    display: block;
+    width: 82px;
+    height: 45px;
+}
+
 .navigation-list {
     display: flex;
     gap: 88px;
