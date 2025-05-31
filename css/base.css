@@ -62,3 +62,27 @@ body {
 .contact:hover {
     background-color: #D97D1D;
 }
+
+.hero-content {
+    max-width: 480px;
+}
+
+.hero-subtitle {
+    color: #E87D0E;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+.hero-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 26px;
+    line-height: 155%;
+}
+
+.hero-desc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+}
