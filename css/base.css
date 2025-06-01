@@ -7,8 +7,15 @@ body {
 
 .container {
     padding: 37px 55px;
-    max-width: 1320px;
     margin: 0 auto;
+}
+
+.container-large {
+    max-width: 1320px;
+}
+
+.container-small {
+    max-width: 1146px;
 }
 
 .header {
