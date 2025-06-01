@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    padding: 37px 55px;
+    padding: 0px 55px;
     margin: 0 auto;
 }
 
@@ -22,6 +22,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 37px;
+    padding-bottom: 37px;
 }
 
 .logo {
@@ -68,6 +70,11 @@ body {
 
 .contact:hover {
     background-color: #D97D1D;
+}
+
+.hero {
+    padding-top: 80px;
+    padding-bottom: 66px;
 }
 
 .hero-content {
