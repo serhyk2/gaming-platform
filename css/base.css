@@ -4,6 +4,7 @@ body {
     background: linear-gradient(180deg, #090501, #120A01);
     min-height: 100vh;
     color: #ffffff;
+    overflow-x: hidden;
 }
 
 /* Containter */
@@ -95,6 +96,7 @@ body {
 .hero {
     padding-top: 80px;
     padding-bottom: 66px;
+    position: relative;
 }
 
 .hero-content {
@@ -120,4 +122,12 @@ body {
     font-size: 16px;
     line-height: 200%;
     margin-bottom: 50px;
+}
+
+.hero-image {
+    position: absolute;
+    width: 81%;
+    top: -203px;
+    left: 44%;
+    display: block;
 }
