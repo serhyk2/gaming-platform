@@ -23,8 +23,7 @@ body {
 
 /* Button */
 .button {
-    color: #ffffff;
-    background-color: #FA9021;
+
     text-decoration: none;
     display: inline-flex;
     justify-content: center;
@@ -53,6 +52,17 @@ body {
     height: 54px;
     padding: 0px 30px 0px 30px;
 }
+
+.button-color-orange {
+    color: #ffffff;
+    background-color: #FA9021;
+}
+
+.button-color-black {
+    color: #ffffff;
+    background-color: #24201C;
+}
+
 
 /* Header */
 .header {
@@ -94,8 +104,9 @@ body {
 
 /* Hero */
 .hero {
+    overflow-x: hidden;
     padding-top: 80px;
-    padding-bottom: 66px;
+    padding-bottom: 90px;
     position: relative;
 }
 
@@ -126,8 +137,28 @@ body {
 
 .hero-image {
     position: absolute;
-    width: 81%;
-    top: -203px;
+    width: 930px;
+    top: -40%;
     left: 44%;
     display: block;
+}
+
+/* Trending */
+.trending {
+    padding-top: 90px;
+    padding-bottom: 0px;
+
+}
+
+.trending-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.trending-title {
+    font-weight: 700;
+    font-size: 31px;
 }
