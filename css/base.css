@@ -23,7 +23,6 @@ body {
 
 /* Button */
 .button {
-
     text-decoration: none;
     display: inline-flex;
     justify-content: center;
@@ -155,8 +154,6 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 57px;
-
-
 }
 
 .trending-title {
@@ -182,7 +179,6 @@ body {
     align-items: center;
     gap: 8px;
     justify-content: center;
-
 }
 
 .trending-card-bottom-icon {
@@ -194,5 +190,36 @@ body {
 .trending-card-bottom-text {
     font-weight: 500;
     font-size: 22px;
+}
 
+/* Promo */
+
+.promo-title {
+    font-size: 35px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 826px;
+    font-weight: 600;
+    line-height: 187.5%;
+}
+
+.promo-subtitle {
+    font-size: 30px;
+    margin-top: 67px;
+    max-width: 209px;
+    font-weight: 600;
+    line-height: 187.5%;
+}
+
+.promo-description {
+    max-width: 545px;
+    margin-top: 2px;
+    font-weight: 400;
+    line-height: 187.5%;
+}
+
+.promo-image {
+    width: 100%;
+    margin-top: -8px;
+    display: block;
 }
