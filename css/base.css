@@ -145,8 +145,7 @@ body {
 /* Trending */
 .trending {
     padding-top: 90px;
-    padding-bottom: 0px;
-
+    padding-bottom: 65px;
 }
 
 .trending-top {
@@ -194,6 +193,11 @@ body {
 
 /* Promo */
 
+.promo {
+    padding-top: 65px;
+    padding-bottom: 116px;
+}
+
 .promo-title {
     font-size: 35px;
     text-align: center;
@@ -222,4 +226,95 @@ body {
     width: 100%;
     margin-top: -8px;
     display: block;
+}
+
+/* services */
+
+.services {
+    position: relative;
+    padding-top: 93px;
+    padding-bottom: 85px;
+}
+
+.services-content {
+    position: relative;
+    z-index: 1;
+}
+
+.services-title {
+    font-size: 30px;
+    margin-top: 27px;
+    max-width: 826px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 187.5%;
+}
+
+.services-subtitle {
+    font-size: 16px;
+    max-width: 826px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-weight: 400;
+    line-height: 187%;
+}
+
+.service-list {
+    display: flex;
+    justify-content: center;
+    gap: 60px 100px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.service-item {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-item:hover {
+    color: #FA9021;
+    transition: color 300ms ease-in-out;
+}
+
+.service-item-image-wrap {
+    width: 65px;
+    height: 65px;
+    background-color: #ffffff;
+    border-radius: 999999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-item-image {
+    width: 30px;
+    display: block;
+}
+
+.service-item-title {
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.service-item-arrow {
+    margin-top: 24px;
+    display: block;
+    width: 21px;
+    height: 21px;
+}
+
+.services-bg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: block;
+    height: 100%;
+    width: 100%;
+
 }
