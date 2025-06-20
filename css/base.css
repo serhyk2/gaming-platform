@@ -13,6 +13,10 @@ body {
     margin: 0 auto;
 }
 
+.container-medium {
+    max-width: 1220px;
+}
+
 .container-large {
     max-width: 1320px;
 }
@@ -489,4 +493,150 @@ body {
 .cta-input::placeholder {
     color: #898989;
 
+}
+
+/* footer */
+
+.footer {
+    background-color: #070707;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 56px;
+}
+
+.footer-logo-link {
+    display: block;
+}
+
+
+.footer-logo {
+    display: block;
+    width: 66px;
+}
+
+
+.footer-subtitle {
+    margin-top: 25px;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    width: 372px;
+    margin-bottom: 35px;
+}
+
+.footer-tag {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 300ms ease-in-out;
+}
+
+.footer-tag:hover {
+    color: #FA9021;
+}
+
+.footer-nav-title {
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.footer-nav-list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-nav-link {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 300ms ease-in-out;
+    line-height: 187%;
+
+}
+
+.footer-nav-link:hover {
+    color: #FA9021;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contact-title {
+    line-height: 26px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.footer-contact-subtitle {
+    max-width: 282px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 11px;
+}
+
+.footer-contact-phone {
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 300ms ease-in-out;
+}
+
+.footer-contact-phone:hover {
+    color: #FA9021;
+}
+
+.footer-social {
+    display: flex;
+    gap: 16px;
+    align-self: flex-end;
+}
+
+.footer-social-link {
+    background-color: #ffffff;
+    width: 34px;
+    border-radius: 9999px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 300ms ease-in-out;
+}
+
+.footer-social-image {
+    display: block;
+    height: 12px;
+    width: 12px;
+
+}
+
+.footer-social-link:hover {
+    background-color: #D97D1D;
+
+}
+
+.footer-divider {
+    background-color: #D2D2D2;
+    height: 1px;
+}
+
+.footer-copyright {
+    text-align: center;
+    padding-bottom: 37px;
+    padding-top: 29px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
 }
