@@ -248,9 +248,23 @@ body {
 .hero-image {
     position: absolute;
     width: 930px;
-    top: -40%;
+    top: -45%;
     left: 44%;
     display: block;
+}
+
+@media (max-width: 767px) {
+    .hero {
+        padding-top: 15px;
+    }
+
+    .hero-title {
+        font-size: 36px;
+    }
+
+    .hero-image {
+        display: none;
+    }
 }
 
 /* Trending */
