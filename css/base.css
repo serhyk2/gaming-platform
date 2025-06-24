@@ -341,6 +341,7 @@ body {
         display: flex;
         flex-direction: column;
         padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     .trending-top {
@@ -371,8 +372,8 @@ body {
 /* Promo */
 
 .promo {
-    padding-top: 65px;
-    padding-bottom: 116px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .promo-title {
@@ -403,6 +404,29 @@ body {
     width: 100%;
     margin-top: -8px;
     display: block;
+}
+
+@media (max-width: 767px) {
+    .promo {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+
+    .promo-title {
+        font-size: 21px;
+        text-align: left;
+    }
+
+    .promo-subtitle {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .promo-description {
+        margin-bottom: 25px;
+    }
 }
 
 /* services */
