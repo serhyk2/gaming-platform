@@ -546,7 +546,6 @@ body {
 
     }
 
-    .
 }
 
 /* projects */
@@ -635,6 +634,29 @@ body {
 
 .projects-button {
     margin: 82px auto 0 auto;
+}
+
+@media (max-width: 767px) {
+    .projects {
+        padding-top: 50px;
+    }
+
+    .projects-title {
+        font-size: 21px;
+    }
+
+    .projects-subtitle {
+        margin-bottom: 50px;
+    }
+
+    .projects-row {
+        flex-wrap: wrap;
+
+    }
+
+    .projects-button {
+        margin-top: 30px;
+    }
 }
 
 /* cta */
