@@ -373,7 +373,7 @@ body {
 
 .promo {
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 112px;
 }
 
 .promo-title {
@@ -411,6 +411,7 @@ body {
         display: flex;
         flex-direction: column;
         padding-top: 20px;
+        padding-bottom: 50px;
     }
 
 
@@ -425,7 +426,7 @@ body {
     }
 
     .promo-description {
-        margin-bottom: 25px;
+        margin-bottom: 50px;
     }
 }
 
@@ -518,6 +519,34 @@ body {
     height: 100%;
     width: 100%;
 
+}
+
+@media (max-width: 767px) {
+    .services {
+        padding-top: 45px;
+        padding-bottom: 50px;
+    }
+
+    .services-title {
+        font-size: 18px;
+    }
+
+    .service-list {
+        margin-top: 50px;
+        gap: 45px 100px;
+
+    }
+
+    .service-item-title {
+        font-size: 20px;
+    }
+
+    .services-bg {
+        object-fit: cover;
+
+    }
+
+    .
 }
 
 /* projects */
